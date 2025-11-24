@@ -35,7 +35,7 @@ class ChordLoadModel(io.ComfyNode):
             inputs=[
                 io.Combo.Input(
                     "ckpt_name",
-                    options=([x for x in folder_paths.get_filename_list("checkpoints") if x.endswith("ckpt")], {})
+                    options=[x for x in folder_paths.get_filename_list("checkpoints") if x.endswith("ckpt")]
                 ),
             ],
             outputs=[io.Model.Output("model")],
