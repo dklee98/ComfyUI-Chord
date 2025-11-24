@@ -12,11 +12,15 @@ ComfyUI Custom Node for paper: **Chord: Chain of Rendering Decomposition for PBR
 
 2. Download the pretrained model from [Hugging Face](Ubisoft/ubisoft-laforge-chord) and place the **chord_v1.ckpt** file into the **ComfyUI/models/checkpoints** folder.
 
-3. Install the custom nodes from the [ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) or by cloning this repository recursively in the custom nodes folder of ComfyUI:
+3. Install the custom nodes from the [ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) or manually cloning this repository recursively in the custom nodes folder of ComfyUI:
 
     ```shell
+    # Clone repo
     cd ./ComfyUI/custom_nodes
     git clone --recursive https://github.com/ubisoft/ComfyUI-Chord.git
+    # Install dependencies
+    cd ComfyUI-Chord
+    pip install -r requirements.txt
     ```
 ## Example Workflow
 
