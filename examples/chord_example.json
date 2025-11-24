@@ -5,70 +5,6 @@
   "last_link_id": 38,
   "nodes": [
     {
-      "id": 25,
-      "type": "ChordMaterialEstimation",
-      "pos": [
-        669.1222107554908,
-        312.46323813855713
-      ],
-      "size": [
-        270,
-        118
-      ],
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 32
-        },
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 33
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            34
-          ]
-        },
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            35,
-            38
-          ]
-        },
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            36
-          ]
-        },
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            37
-          ]
-        }
-      ],
-      "properties": {
-        "aux_id": "ubisoft/ComfyUI-Chord",
-        "ver": "cfadf742e1838ded9990d85e43650d55a96e7391",
-        "Node name for S&R": "ChordMaterialEstimation"
-      },
-      "widgets_values": []
-    },
-    {
       "id": 14,
       "type": "PreviewImage",
       "pos": [
@@ -121,66 +57,6 @@
       ],
       "outputs": [],
       "title": "Normal",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.70",
-        "Node name for S&R": "PreviewImage"
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 24,
-      "type": "PreviewImage",
-      "pos": [
-        1035.5098787324794,
-        407.8680029468901
-      ],
-      "size": [
-        140,
-        246
-      ],
-      "flags": {},
-      "order": 7,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 37
-        }
-      ],
-      "outputs": [],
-      "title": "Roughness",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.70",
-        "Node name for S&R": "PreviewImage"
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 15,
-      "type": "PreviewImage",
-      "pos": [
-        1180,
-        410
-      ],
-      "size": [
-        140,
-        246.00000000000006
-      ],
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 36
-        }
-      ],
-      "outputs": [],
-      "title": "Metalness",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.70",
@@ -328,6 +204,130 @@
         "ref_render.png",
         "image"
       ]
+    },
+    {
+      "id": 25,
+      "type": "ChordMaterialEstimation",
+      "pos": [
+        669.1222107554908,
+        312.46323813855713
+      ],
+      "size": [
+        270,
+        118
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 32
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 33
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            34
+          ]
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            35,
+            38
+          ]
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            36
+          ]
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            37
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "ubisoft/ComfyUI-Chord",
+        "ver": "cfadf742e1838ded9990d85e43650d55a96e7391",
+        "Node name for S&R": "ChordMaterialEstimation"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 24,
+      "type": "PreviewImage",
+      "pos": [
+        1183.2196819514038,
+        414.1726896696491
+      ],
+      "size": [
+        140,
+        246
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 37
+        }
+      ],
+      "outputs": [],
+      "title": "Metalness",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.70",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 15,
+      "type": "PreviewImage",
+      "pos": [
+        1033.1908663128988,
+        413.60267812729086
+      ],
+      "size": [
+        140,
+        246.00000000000006
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 36
+        }
+      ],
+      "outputs": [],
+      "title": "Roughness",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.70",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
     }
   ],
   "links": [
@@ -402,7 +402,7 @@
     "ds": {
       "scale": 1.1102851430715899,
       "offset": [
-        -148.2607809733155,
+        -146.4594419096701,
         51.621946976768974
       ]
     },
