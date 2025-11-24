@@ -4,7 +4,7 @@
 <a href="https://ubisoft-laforge.github.io/world/chord/"><img src="https://img.shields.io/badge/Project-Page-brightgreen?logo=ubisoft&logoColor=white&style=flat-square" alt="Project Page"></a>
 <a href="https://github.com/ubisoft/ubisoft-laforge-chord"><img src="https://img.shields.io/badge/Github-Code-blue?logo=github&logoColor=white&style=flat-square" alt="Code"></a>
 
-ComfyUI custom node implementation of the paper: **Chord: Chain of Rendering Decomposition for PBR Material Estimation from Generated Texture Images**
+ComfyUI custom node for the paper: **Chord: Chain of Rendering Decomposition for PBR Material Estimation from Generated Texture Images**
 
 ## Installation
 
@@ -12,7 +12,7 @@ ComfyUI custom node implementation of the paper: **Chord: Chain of Rendering Dec
 
 2. Download the pretrained model from [Hugging Face](https://huggingface.co/Ubisoft/ubisoft-laforge-chord) and place the file **chord_v1.ckpt** in the folder **./ComfyUI/models/checkpoints**.
 
-3. Install the custom nodes from the [ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) or manually clone this repository **with the argument `--recursive`** in the custom nodes folder of ComfyUI:
+3. Install the custom nodes from the [ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) or manually clone this repository in the custom nodes folder, **with the argument `--recursive`**:
 
     ```shell
     # Clone the repository
@@ -29,10 +29,9 @@ ComfyUI custom node implementation of the paper: **Chord: Chain of Rendering Dec
 
 ## Example Workflow
 
-![Example workflow](examples/chord_example.png)
+You can load this workflow using the JSON file `examples/chord_example.json` or by dropping the image in ComfyUI.
 
-You can load this workflow using the JSON file:
-`examples/chord_example.json`
+![Example workflow](examples/chord_example.png)
 
 ## License
 
