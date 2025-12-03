@@ -167,10 +167,17 @@
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.71",
-        "Node name for S&R": "CheckpointLoaderSimple"
+        "Node name for S&R": "CheckpointLoaderSimple",
+        "models": [
+          {
+            "name": "Raymnants.6.2.safetensors",
+            "url": "https://huggingface.co/MutantSparrow/Ray/resolve/main/SDXL/Raymnants.6.2.safetensors?download=true",
+            "directory": "checkpoints"
+          }
+        ]
       },
       "widgets_values": [
-        "visitor01\\raymnants-v3.0.safetensors"
+        "Raymnants.6.2.safetensors"
       ]
     },
     {
