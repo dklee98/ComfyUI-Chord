@@ -63,4 +63,4 @@ If you find our work useful, please consider citing:
 }
 ```
 
-© [2025] Ubisoft Entertainment. All Rights Reserved.
+© [2025] Ubisoft Entertainment. All Rights Reserved. 
