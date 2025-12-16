@@ -8,7 +8,7 @@ ComfyUI custom node for the paper: **Chord: Chain of Rendering Decomposition for
 
 ## Installation
 
-1. Download and install ComfyUI. If you are new to ComfyUI, refer to the original [repository](https://github.com/comfyanonymous/ComfyUI) to get started. **Make sure you have the latest version.**
+1. Download and install ComfyUI.  If you are new to ComfyUI, refer to the original [repository](https://github.com/comfyanonymous/ComfyUI) to get started. **Make sure you have the latest version.**
 
 2. Download the pretrained model **chord_v1.safetensors** from [Hugging Face](https://huggingface.co/Ubisoft/ubisoft-laforge-chord) and place it in the folder **./ComfyUI/models/checkpoints**.
 
